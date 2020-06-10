@@ -1,4 +1,4 @@
-# Web and Mobile Programming - summer 2020
+# Web and Mobile Programming - summer 2020---ICP1
 
 -this project show the installation features and plateforms used to create web applications efficiently
 -also this project will give you a general idea of GITHUB and its operations
