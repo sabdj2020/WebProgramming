@@ -12,9 +12,9 @@ ICP2-video: https://youtu.be/akTu2qTlcFs<BR>
 ICP2 WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/WEB-ICP2
   
 ICP3<BR>
-ICP3-video: https://youtu.be/EErxHb_AA4o
+ICP3-video: https://youtu.be/EErxHb_AA4o<BR>
 ICP3 WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/WEB-ICP3
 
 ICP4<BR>
-ICP4-video: https://youtu.be/n3TgE6pr6dw
+ICP4-video: https://youtu.be/n3TgE6pr6dw<BR>
 ICP4 WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/WEB-ICP4
