@@ -21,17 +21,17 @@ function getGithubInfo(user) {
         }
     }
 }
-function showUser(user) {
+function showUser(githubUser) {
     //2. set the contents of the h2 and the two div elements in the div '#profile' with the user content
-    var name   = user.name;
-    var id   = user.id;
-    var uname   = user.login;
-    var avatar_url     = user.avatar_url;
-    var url = user.html_url;
-    var location   = user.location;
-    var followers = user.followers;
-    var following = user.following;
-    var repos     = user.public_repos;
+    var name   = githubUser.name;
+    var id   = githubUser.id;
+    var uname   = githubUser.login;
+    var avatar_url     = githubUser.avatar_url;
+    var url = githubUser.html_url;
+    var location   = githubUser.location;
+    var followers = githubUser.followers;
+    var following = githubUser.following;
+    var repos     = githubUser.public_repos;
 
     // display info about th user
 
@@ -45,11 +45,9 @@ function showUser(user) {
     outhtml = outhtml + '<div><p>Following: '+following+' </p></div>';
     outhtml = outhtml + '<div><p>repositories: '+repos+' </p></div>';
 
-    outhtml = outhtml + '<div class="repolist clearfix">';
-// the info displayed to the div with id #info
-    document.getElementById('texty').innerHTML = user.name;
+    // the info displayed to the div with id #info
+    document.getElementById('para').innerHTML = githubUser.name;
     $('#info').html(outhtml);
-    $("#button").text("Check Another User!");
 }
 
 function noSuchUser(username) {
