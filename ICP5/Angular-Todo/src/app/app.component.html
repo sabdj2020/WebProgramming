@@ -1,0 +1,20 @@
+
+<h1>{{title2}}</h1>
+<h1><countdown [config]="{leftTime: 90000000000}"></countdown></h1>
+
+<h1>{{title}}</h1>
+<input type = "text" #newTodo />
+<button (click)="addTodo(newTodo.value); newTodo.value=''">ADD</button>
+<table align="center">
+
+  <tr *ngFor="let todo of todolist">
+    <td>{{todo.todoname}}</td>
+    <td>{{todo.priority}}</td>
+    <td>{{todo.done ? '&#10003;': '&#10005;'}}</td>
+    <td><button (click)="deleteTodo(todo)">Remove from the list</button></td>
+
+  </tr>
+</table>
+
+<br><br>
+

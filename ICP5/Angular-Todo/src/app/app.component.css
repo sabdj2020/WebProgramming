@@ -1,0 +1,26 @@
+td{
+  background-color: white;
+}
+table{
+  text-align: left;
+  width: 30%;
+  background-color: pink;
+  padding: 10px;
+  font-size: large;
+}
+input{
+  width: 20%;
+  height: 40px;
+}
+.count{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 400px;
+  background-color: #1976d2;
+  left: 80%;
+}
+tr{
+  height: 50px;
+}
+
