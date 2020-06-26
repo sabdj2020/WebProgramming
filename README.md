@@ -24,6 +24,6 @@ ICP5-video:https://youtu.be/kwdm5vsVi6A<BR>
 ICP5 WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/WEB-ICP5
   
 ICP6<BR>
-ICP4-video:https://youtu.be/GX7ALQaSh9w<BR>
-ICP4 WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/WEB-ICP6
+ICP6-video:https://youtu.be/GX7ALQaSh9w<BR>
+ICP6 WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/WEB-ICP6
 
