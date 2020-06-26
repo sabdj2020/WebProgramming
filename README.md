@@ -1,13 +1,11 @@
 # Web and Mobile Programming - summer 2020
 
 ICP1<BR>
-
 ICP1-video: https://youtu.be/k_lgmZa29Pc<BR>
 ICP1 WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/WEB-ICP1
 
 
 ICP2<BR>
-
 ICP2-video: https://youtu.be/akTu2qTlcFs<BR>
 ICP2 WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/WEB-ICP2
   
