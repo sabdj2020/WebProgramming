@@ -10,7 +10,7 @@
         android:id="@+id/home"
         android:layout_width="355dp"
         android:layout_height="64dp"
-        android:text="Welcome to you home page user"
+        android:text="Welcome to your home page user"
         android:textColor="@color/colorPrimary"
         android:textSize="35px"
         app:layout_constraintBottom_toBottomOf="parent"
