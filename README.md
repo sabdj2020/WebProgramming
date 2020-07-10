@@ -1,4 +1,5 @@
-# Web and Mobile Programming - summer 2020
+#
+Web and Mobile Programming - summer 2020
 
 PART1: WEB<BR>
 
@@ -37,4 +38,8 @@ PART2: MOBILE<BR>
  Mobile-ICP1 
  VIDEO:  https://youtu.be/PGMawaDitOk <BR>
  WIKI:  https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/MOBILE-ICP1
+  
+ Mobile-ICP2
+ VIDEO: https://youtu.be/vmtglvaIuHg<BR>
+ WIKI:  https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/MOBILE-ICP2
 
