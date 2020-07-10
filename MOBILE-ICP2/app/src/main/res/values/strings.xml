@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pizza Ordering App</string>
+    <string name="yes">yes</string>
+    <string name="order_summary_Olives">ol</string>
+    <string name="order_summary_Pineapple">tom</string>
+    <string name="order_summary_Onions">pin</string>
+    <string name="order_summary_onion">oni</string>
+    <string name="order_summary_tomat">tom</string>
+    <string name="order_summary_tomatoes">tom</string>
+    <string name="order_summary_quantity">qtty</string>
+    <string name="order_summary_total_price">ptotal</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="no">no</string>
+    <string name="summary_Olives">Olives</string>
+    <string name="summary_tomatoes">Tomatoes</string>
+    <string name="summary_Pineapple">Pineapple</string>
+    <string name="summary_Onions">Onions</string>
+    <string name="summary_quantity">Quantity</string>
+    <string name="summary_total_price">Total Price</string>
+</resources>
