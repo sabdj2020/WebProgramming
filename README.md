@@ -42,4 +42,8 @@ PART2: MOBILE<BR>
  Mobile-ICP2
  VIDEO: https://youtu.be/vmtglvaIuHg<BR>
  WIKI:  https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/MOBILE-ICP2
+  
+ Mobile-ICP3
+ VIDEO:https://youtu.be/5i3ommPYwwE
+ WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/MOBILE-ICP3
 
