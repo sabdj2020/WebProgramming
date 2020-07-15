@@ -36,7 +36,7 @@ public class QueryUtils {
         //  URL object to store the url for a given string
         URL url = null;
         // A string to store the response obtained from rest call in the form of string
-        String jsonRes = "";
+        String jsonResponse = "";
         StringBuilder stringres = new StringBuilder();
         try {
             //TODO: 1. Create a URL from the requestUrl string and make a GET request to it
@@ -50,15 +50,15 @@ public class QueryUtils {
             while ((inputline = bufferedReader.readLine()) != null) {
                 stringres.append(inputline);
             }
-            jsonRes  = stringres.toString();
+            jsonResponse = stringres.toString();
 
             /*TODO: 3. Parse the jsonResponse string obtained in step 2 above into JSONObject to extract the values of
-                        "mag","place","time","url"for every earth quake and create corresponding Earthquake objects with them
+                        "mag","place","time","url" for every earth quake and create corresponding Earthquake objects with them
                         Add each earthquake object to the list(earthquakes) and return it.
             */
 
             try {
-                JSONObject object = new JSONObject(jsonRes);
+                JSONObject object = new JSONObject(jsonResponse);
                 JSONArray val = object.getJSONArray("features");
                 JSONObject object2;
                 JSONObject object1 = new JSONObject(val.getString(0));
@@ -72,7 +72,7 @@ public class QueryUtils {
                 }
 
             } catch (Throwable t) {
-                Log.e("App", "parse JSON problem: \"" + jsonRes + "\"");
+                Log.e("App", "parse JSON problem: \"" + jsonResponse + "\"");
             }
 
             // Return the list of earthquakes
