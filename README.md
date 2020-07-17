@@ -35,11 +35,16 @@ ICP7 WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/WEB
   
 PART2: MOBILE<BR>
   
- Mobile-ICP1 
+ Mobile-ICP1 <BR>
  VIDEO:  https://youtu.be/PGMawaDitOk <BR>
  WIKI:  https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/MOBILE-ICP1
   
- Mobile-ICP2
+ Mobile-ICP2 <BR>
+ 
  VIDEO: https://youtu.be/vmtglvaIuHg<BR>
  WIKI:  https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/MOBILE-ICP2
+  
+ Mobile-ICP3 <BR>
+ VIDEO:https://youtu.be/5i3ommPYwwE  <br>
+ WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/MOBILE-ICP3
 
