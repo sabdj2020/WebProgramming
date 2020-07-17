@@ -22,7 +22,6 @@
         android:layout_marginRight="0dp"
         android:ems="10"
         android:gravity="start"
-        android:hint="enter text here..."
         android:inputType="textMultiLine"
         android:textAlignment="viewStart"
         android:textSize="24sp" />
