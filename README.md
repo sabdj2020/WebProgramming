@@ -50,5 +50,11 @@ PART2: MOBILE<BR>
   
 Mobile-ICP4 <BR>
 VIDEO: https://youtu.be/y8mG8fZtOkQ
- WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/MOBILE-ICP4
+WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/MOBILE-ICP4
+  
+  
+Mobile-ICP5 <BR>
+VIDEO: https://youtu.be/-rwv6SaTPs8
+WIKI: https://github.com/sabdj2020/WebMobileProgramming-summer2020/wiki/MOBILE-ICP5
+
 
