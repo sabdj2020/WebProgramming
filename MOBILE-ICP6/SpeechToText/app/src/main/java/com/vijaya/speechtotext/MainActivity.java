@@ -102,14 +102,14 @@ private void recognize_text(String txt){
     //array to contain the answer words
     String username;
     mVoiceInputTv.setText(txt);
-    String[] speech = txt.split(" ");
+    String[] wordSpeech = txt.split(" ");
 
     if(txt.contains("hello")){
         ts.speak("What is your name", TextToSpeech.QUEUE_FLUSH, null);
     }
     if(txt.contains("my name is"))
     {
-        username = speech[speech.length-1];
+        username = wordSpeech[wordSpeech.length-1];
         edit.putString(NAME,username).apply();
 
         mVoiceInputTv.setText(username);
