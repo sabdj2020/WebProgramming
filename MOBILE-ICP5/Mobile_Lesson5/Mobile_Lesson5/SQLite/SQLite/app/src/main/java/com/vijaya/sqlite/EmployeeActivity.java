@@ -127,44 +127,41 @@ public class EmployeeActivity extends AppCompatActivity {
     //added code
     // Update
     private void update() {
-        String lastname = binding.lastnameEditText.getText().toString();
-        SQLiteDatabase database = new SampleDBSQLiteHelper(this).getWritableDatabase();
-        ContentValues values = new ContentValues();
-        values.put(SampleDBContract.Employee.COLUMN_FIRSTNAME, binding.firstnameEditText.getText().toString());
-        values.put(SampleDBContract.Employee.COLUMN_JOB_DESCRIPTION, binding.jobDescEditText.getText().toString());
-        values.put(SampleDBContract.Employee.COLUMN_EMPLOYER_ID,
+        String ln = binding.lastnameEditText.getText().toString();
+        SQLiteDatabase db = new SampleDBSQLiteHelper(this).getWritableDatabase();
+        ContentValues val = new ContentValues();
+        val.put(SampleDBContract.Employee.COLUMN_FIRSTNAME, binding.firstnameEditText.getText().toString());
+        val.put(SampleDBContract.Employee.COLUMN_JOB_DESCRIPTION, binding.jobDescEditText.getText().toString());
+        val.put(SampleDBContract.Employee.COLUMN_EMPLOYER_ID,
                 ((Cursor)binding.employerSpinner.getSelectedItem()).getInt(0));
-        Log.d("getINT", ((Cursor)binding.employerSpinner.getSelectedItem()).getInt(0) + "");
-        Log.d("getColumnName", ((Cursor)binding.employerSpinner.getSelectedItem()).getColumnName(0));
-
         try {
-            Calendar calendar = Calendar.getInstance();
-            calendar.setTime((new SimpleDateFormat("dd/MM/yyyy")).parse(
+            Calendar cal = Calendar.getInstance();
+            cal.setTime((new SimpleDateFormat("dd/MM/yyyy")).parse(
                     binding.dobEditText.getText().toString()));
-            long date = calendar.getTimeInMillis();
-            values.put(SampleDBContract.Employee.COLUMN_DATE_OF_BIRTH, date);
-            calendar.setTime((new SimpleDateFormat("dd/MM/yyyy")).parse(
+            long d = cal.getTimeInMillis();
+            val.put(SampleDBContract.Employee.COLUMN_DATE_OF_BIRTH, d);
+            cal.setTime((new SimpleDateFormat("dd/MM/yyyy")).parse(
                     binding.employedEditText.getText().toString()));
-            date = calendar.getTimeInMillis();
-            values.put(SampleDBContract.Employee.COLUMN_EMPLOYED_DATE, date);
+            d = cal.getTimeInMillis();
+            val.put(SampleDBContract.Employee.COLUMN_EMPLOYED_DATE, d);
         }
         catch (Exception e) {
             Log.e(TAG, "Error", e);
-            Toast.makeText(this, "Date is in the wrong format", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Date wrong format", Toast.LENGTH_LONG).show();
             return;
         }
-        String filter = SampleDBContract.Employee.COLUMN_LASTNAME+"='"+lastname+"'";
-        database.update(SampleDBContract.Employee.TABLE_NAME,values ,filter,null);
-        Toast.makeText(this, "Updated !!", Toast.LENGTH_LONG).show();
+        String fil= SampleDBContract.Employee.COLUMN_LASTNAME+"='"+ln+"'";
+        db.update(SampleDBContract.Employee.TABLE_NAME,val ,fil,null);
+        Toast.makeText(this, "was Updated", Toast.LENGTH_LONG).show();
     }
 
     // Delete Employee
     private void delete() {
-        String lastname = binding.lastnameEditText.getText().toString();
+        String ln = binding.lastnameEditText.getText().toString();
         SQLiteDatabase db = new SampleDBSQLiteHelper(this).getWritableDatabase();
         //fill this method to delete the row
         db.delete(SampleDBContract.Employee.TABLE_NAME, SampleDBContract.Employee.COLUMN_LASTNAME
-                +"='"+lastname+"'", null);
-        Toast.makeText(this, "Deleted !!", Toast.LENGTH_LONG).show();
+                +"='"+ln+"'", null);
+        Toast.makeText(this, "was Deleted", Toast.LENGTH_LONG).show();
     }
 }
